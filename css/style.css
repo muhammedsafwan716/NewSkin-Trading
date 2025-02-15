@@ -13823,6 +13823,52 @@ textarea.form-control {
   }
 }
 
+/* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+  .hero {
+      text-align: center;
+      padding: 50px 15px; /* Reduce padding */
+  }
+  
+  .hero .text {
+      padding: 20px;
+      font-size: smaller;
+      height: 80vh;
+  }
+
+  .hero h1 {
+      font-size: 24px; /* Reduce font size */
+      line-height: 1.2;
+  }
+
+  .hero .subheading {
+      font-size: 16px; /* Adjust heading size */
+  }
+
+  .hero p {
+      font-size: 14px; /* Reduce paragraph size */
+  }
+
+  .btn-primary {
+      font-size: 14px;
+      padding: 10px 20px; /* Make buttons smaller */
+  }
+
+  /* Adjust image section */
+  .one-third {
+      height: 300px; /* Set a fixed height */
+      background-size: cover;
+      background-position: center;
+  }
+
+  /* Adjust slider height */
+  .js-fullheight {
+      height: auto !important; /* Allow natural height */
+      min-height: 400px;
+  }
+}
+
+
 .contact-section .box .icon {
   width: 100px;
   height: 100px;
