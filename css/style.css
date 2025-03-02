@@ -4847,6 +4847,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  overflow: auto;
 }
 
 .navbar>.container,
@@ -11931,12 +11932,14 @@ h5,
   font-size: 16px;
   z-index: 1;
   color: rgba(0, 0, 0, 0.3);
+  overflow: auto;
 }
 
 @media (max-width: 1199.98px) {
   .hero h3.vr {
     opacity: 0;
     display: none;
+    overflow: auto;
   }
 }
 
@@ -12115,6 +12118,7 @@ h5,
   font-size: 14px;
   letter-spacing: 3px;
   text-transform: uppercase;
+  padding-top: 1rem;
   color: rgba(0, 0, 0, 0.3);
   color: #b3ab35;
   background: #9ff669;
@@ -12294,6 +12298,7 @@ h5,
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .hero-wrap .overlay {
@@ -12305,6 +12310,7 @@ h5,
   content: '';
   opacity: 0;
   background: #000000;
+  overflow: auto;
 }
 
 .hero-wrap.hero-wrap-2 {
@@ -12523,9 +12529,9 @@ h5,
   position: relative;
   width: 100%;
   display: block;
-  overflow: hidden;
   z-index: 0;
   margin-bottom: 50px;
+  overflow: auto;
 }
 
 .project .img {
@@ -13828,12 +13834,14 @@ textarea.form-control {
   .hero {
       text-align: center;
       padding: 50px 15px; /* Reduce padding */
+      overflow: auto;
   }
   
   .hero .text {
       padding: 20px;
       font-size: smaller;
       height: 80vh;
+      overflow: auto;
   }
 
   .hero h1 {
@@ -13856,9 +13864,10 @@ textarea.form-control {
 
   /* Adjust image section */
   .one-third {
-      height: 300px; /* Set a fixed height */
+      height: 66vh; /* Set a fixed height */
       background-size: cover;
       background-position: center;
+      overflow-y: auto;
   }
 
   /* Adjust slider height */
