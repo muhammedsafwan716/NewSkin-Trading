@@ -14243,3 +14243,31 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+
+/* Cleaning Applications Section Styling */
+.cleaning-applications-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cleaning-applications-grid h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cleaning-applications-grid ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.cleaning-applications-grid ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .cleaning-applications-grid .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
